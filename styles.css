@@ -1,0 +1,180 @@
+@media (max-width : 1000px) {
+  img.iphone6{
+    transform: rotate(0);
+    margin-bottom: 0;
+  }
+  #title{
+    text-align: center;
+    align-items: center;
+  }
+}
+
+/* ID Selectors */
+
+#features{
+  background-color: #fff;
+  color: #000;
+}
+
+#testimonials{
+  text-align: center;
+  align-items: center;
+}
+
+#pricing {
+  text-align: center;
+  align-items: center;
+  padding : 5rem 10rem;
+}
+
+#testimonialSlides img{
+  width: 200px;
+}
+
+#cta{
+  text-align: center;
+  align-items: center;
+  padding : 5rem 10rem;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  padding : 5rem 10rem;
+  color: gray;
+}
+
+/* Tag Selectors */
+
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1000;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.card{
+  padding: 0;
+}
+
+nav .navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav.navbar{
+  padding: 0;
+  padding-bottom: 5rem;
+}
+
+h2 .zmdi, h2 .lni{
+  font-size: 4rem;
+  color: #81be73;
+}
+
+h2 .zmdi:hover, h2 .lni:hover{
+  color: #1Fab89;
+}
+
+
+/* Class Selectors */
+
+.padding-center{
+
+}
+
+.section-green{
+  background-color: #1fab89;
+  color: #fff;
+}
+
+.social-icon{
+  margin : 20px 10px;
+  color : black;
+  font-size: 1.3rem;
+}
+
+.social-icon:hover{
+  color : purple;
+  font-size: 2.5rem;
+}
+
+
+
+.row{
+  margin-top: 4rem;
+}
+
+.testimonial-image{
+  margin-top : 2rem;
+  width: 200px;
+}
+
+.headLine{
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.mycontainer{
+  padding: 6% 15%;
+  overflow-y: hidden;
+}
+
+.iphone6{
+  margin-top: 2rem;
+  transform: rotate(20deg);
+  margin-bottom: -15rem;
+}
+
+.featureCol{
+  text-align: center;
+  align-items: center;
+}
+
+.featureCol h3{
+  font-family: "Ubuntu-Bold", sans-serif;
+  font-weight: bolder;
+}
+
+.featureCol p{
+  padding: 0 15%;
+  color: gray;
+}
+
+
+.nav-item{
+  margin : 0 1rem;
+}
+
+.download-button{
+  margin: 3% 5% 2% 0;
+}
+
+.featureContainer{
+  margin: 10% 15%;
+}
+
+.testimonialImageContainer{
+  margin: 6rem 0;
+  align-items: center;
+  display: inline-block;
+  width : 70%;
+  height: 20rem;
+}
+
+.testimonialImageContainer h4{
+  margin-top: 7rem;
+}
+
+.testimonialImageContainer img{
+  float: left;
+  max-width : 50%;
+  max-height: 100%;
+}
